@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-02-18 12:09:24.928017",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "applicant_name",
+  "applicant_email_id",
+  "applicant_phone_number",
+  "service",
+  "date",
+  "slot_timing",
+  "session",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "applicant_name",
+   "fieldtype": "Data",
+   "label": "Applicant Name"
+  },
+  {
+   "fieldname": "applicant_email_id",
+   "fieldtype": "Data",
+   "label": "Applicant Email ID"
+  },
+  {
+   "fieldname": "applicant_phone_number",
+   "fieldtype": "Data",
+   "label": "Applicant Phone Number"
+  },
+  {
+   "fieldname": "service",
+   "fieldtype": "Data",
+   "label": "Service"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "Date"
+  },
+  {
+   "fieldname": "slot_timing",
+   "fieldtype": "Data",
+   "label": "Slot Timing"
+  },
+  {
+   "fieldname": "session",
+   "fieldtype": "Data",
+   "label": "Session"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "AppointmentDetails",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-02-19 12:50:32.633325",
+ "modified_by": "Administrator",
+ "module": "Accounting Appointment Service",
+ "name": "AppointmentDetails",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
